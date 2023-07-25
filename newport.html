@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="newport.css" />
+    <title>Martand's Portfolio</title>
+  </head>
+  <body>
+    <div class="hero">
+      <div class="navbar">
+        <img src="/image/coderimage.jpg" class="logo" />
+        <h3>|| यत‌्‌ भावो तत‌्‌ भवलि ||</h3>
+        <button type="button" class="button" onclick="playMusic()">
+          &#128640;
+        </button>
+      </div>
+
+      <div class="content">
+        <h2>Welcome to my</h2>
+        <h1>Portfol<span class="h1io">io!</span></h1>
+        <h3 class="typing">
+          I'm a passionate <span id="element" class="h1io"></span>
+        </h3>
+        <br />
+        <a href="/image/sql_basic certificate.pdf"><button type="button"class="buttoncontent">Download CV</button></a>
+      </div>
+      <br />
+      <div class="dispbar">
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="side-bar">
+        <img
+          src="/image/navigationlogo.png"
+          class="menu"
+          onclick="displaysidebar()"
+        />
+        <div class="social-icons" id="siding">
+          <a href="https://www.linkedin.com/in/martand-mahajan-667007234/"
+            ><img src="/image/linkedinlogo.png"
+          /></a>
+          <a href="https://instagram.com/martand003?igshid=MzNlNGNkZWQ4Mg=="
+            ><img src="/image/instagramlogo.jpg"
+          /></a>
+          <a href="https://github.com/Martand03"
+            ><img src="/image/githublofo.png"
+          /></a>
+        </div>
+        <div class="useful-icons" id="siding1">
+          <a href="#"> <img src="/image/homelogo.png" /></a>
+          <a href="#">
+            <img src="/image/aboutingicon.png" onclick="aboutlogo()"
+          /></a>
+          <img src="/image/sharinglogo.png" onclick="copyurl()" />
+        </div>
+      </div>
+
+      <div class="deer">
+        <img src="/image/javalogo.png" />
+        <img src="/image/jslogo.png" />
+        <img src="/image/htmllogo.png" />
+        <img src="/image/csslogo.png" />
+        <img src="/image/jslogo.png" />
+        <img src="/image/csslogo.png" />
+        <img src="/image/htmllogo.png" />
+        <img src="/image/javalogo.png" />
+        <img src="/image/gkglogo.jpg" />
+      </div>
+    </div>
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="/image/martand.jpeg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h2 class="subtitle">About Me</h2>
+            <p class="aboutcontent">
+              I am a highly skilled professional with a broad range of technical
+              expertise. My front-end development skills encompass HTML, CSS,
+              JavaScript, and Node.js, enabling me to create visually appealing
+              and interactive web applications. On the back-end, I excel in
+              using the Spring framework, Java, SQL, and managing databases,
+              ensuring robust and scalable application architecture.
+              Additionally, I possess proficiency in programming
+              microcontrollers and Arduino boards, allowing me to bring
+              innovative ideas to life in the form of robotics projects. As a
+              core team member of a robotics club, I actively contribute to the
+              design and implementation of cutting-edge robotic systems. My
+              ability to seamlessly navigate between different domains makes me
+              a versatile and invaluable asset in both the digital and physical
+              realms of technology.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-content active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing User Interface</li>
+                <li><span>Web-Designing</span><br />Designing Web App</li>
+                <li><span>Backend-Developer</span><br />Developing back-end logics</li>
+              </ul>
+            </div>
+            <div class="tab-content" id="experience">
+              <ul>
+                <li><span>Web-Development</span><br />1 month Intern @CodSoft</li>
+                <li><span>Student</span><br />E&TC</li>
+                <!-- <li><span>Ui/Ux</span><br />Designing Web App</li> -->
+              </ul>
+            </div>
+            <div class="tab-content" id="education">
+              <ul>
+                <li><span>HSC</span><br />92.67%</li>
+                <li><span>CGPA</span><br />9.26</li>
+                <li><span>CGPA</span><br />Current Year SY- 9.6</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- --------------------services---------------- -->
+
+    <div id="services">
+      <div class="container">
+        <h2 class="subtitle1">My Services</h2>
+        <div class="services-list">
+          <div>
+            <h2 class="service-head">Web Design &#127760;</h2><br>
+            <p>
+              I am a skilled and dedicated web developer with a passion for
+              crafting exceptional online experiences. With expertise in
+              front-end and back-end development, I have the ability to bring
+              your unique vision to life. I specialize in creating visually
+              appealing and user-friendly websites that are optimized for
+              performance and functionality. I am here to help you establish a
+              strong online presence and achieve your digital goals.
+            </p>
+          </div>
+          <div>
+            <h2 class="service-head">Robotics &#129302;</h2><br>
+            <p>
+              I am a skilled robotics developer specializing in designing and
+              creating intelligent robotic systems. From conceptualization to
+              implementation, I develop cutting-edge robotic solutions that
+              cater to specific industry needs. I have the expertise to build
+              and program robots that streamline processes and enhance
+              efficiency. I am dedicated to advancing the field of robotics and
+              creating a future where machines seamlessly interact with the
+              world around us.
+            </p>
+          </div>
+          <div>
+            <h2 class="service-head">Programming Languages &#128218;</h2><br>
+            <p>
+              I am a versatile programmer proficient in a range of programming
+              languages including Java, C++, C, and SQL. With a strong
+              foundation in these languages, I have the expertise to develop
+              robust and efficient solutions for a variety of software projects.
+              My ability to quickly grasp new concepts and adapt to different
+              coding environments allows me to deliver high-quality code that
+              meets your project requirements.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----contact--- -->
+    <div id="contact">
+      <div class="container1">
+        <h2 class="subtitle">Contact Me</h2>
+        <div class="row">
+          <div class="contact-left">
+            <p>martandmahajan03@gmail.com</p><br>
+            <p>9604983552</p><br><br>
+            <div class="social-icon">
+              <img src="/image/instagramlogo.jpg">
+              <img src="/image/linkedinlogo.png">
+              <img src="/image/githublofo.png">
+              <img src="/image/tweeterlogo.jpg">
+            </div>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <p>You can drop your contact information below !!!</p><br>
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="text" name="Email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea><br>
+              <button type="submit" class="btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright &copysr; Martand. Made with love for you.</p>
+    </div>
+    <script src="newport.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web-developer", "Backend-Developer", "Full-Stack Developer"],
+        typeSpeed: 100,
+      });
+    </script>
+  </body>
+</html>
